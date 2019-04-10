@@ -2,6 +2,7 @@
 Kernel.#sleep, delay and delay_us methods for esp32
 
 ## install by mrbgems
+
 - add conf.gem line to `build_config.rb`
 
 ```ruby
@@ -13,13 +14,14 @@ MRuby::Build.new do |conf|
 end
 ```
 
-## Singleton methods
+## Module functions
 
 - Kernel.sleep(sec) => nil
 - Kernel.delay(ms) => nil
 - Kernel.delay_us(us) => nil
 
 ## example
+
 ```ruby
 loop {
   puts "Wait for 1 second."
@@ -32,5 +34,6 @@ loop {
 ```
 
 ## License
+
 under the MIT License:
 - see LICENSE file
